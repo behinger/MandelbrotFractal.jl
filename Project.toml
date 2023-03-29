@@ -1,7 +1,7 @@
 name = "MandelbrotFractal"
 uuid = "25bcf871-a26f-43da-bfb3-c134c21e41c1"
 authors = ["behinger (s-ccs 001) <benedikt.ehinger@vis.uni-stuttgart.de> and contributors"]
-version = "1.0.0-DEV"
+version = "0.0.1"
 
 [compat]
 julia = "1"
