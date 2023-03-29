@@ -16,6 +16,9 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
+        "Tutorials" => [
+            "Plotting" =>"tutorial/plot_mandelbrot.md",
+        ],
     ],
 )
 
