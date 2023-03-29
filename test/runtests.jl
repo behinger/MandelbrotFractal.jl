@@ -11,7 +11,7 @@ using UnicodePlots
     @test abs(mandelbrot(complex(-1,1)) )>2
 end
 
-@testset "plot" begin
+#@testset "plot" begin
     
     
     y = -1:0.01:1
@@ -24,7 +24,9 @@ end
     end
     #---
     heatmap(mandelbrotMatrix)
+
+    display(heatmap(mandelbrotMatrix))
     
     
 
-end
+#end
